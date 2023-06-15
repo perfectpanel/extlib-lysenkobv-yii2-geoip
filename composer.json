@@ -8,7 +8,7 @@
   "authors": [
     {
       "name": "Bohdan Lysenko",
-      "email": "lysenkobv@gmail.com"
+      "email": "admin@perfectpanel.com"
     }
   ],
   "require": {
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "lysenkobv\\GeoIP\\": "src/"
+      "perfectpanel\\GeoIP\\": "src/"
     }
   }
 }
