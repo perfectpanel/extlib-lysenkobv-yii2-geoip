@@ -3,7 +3,7 @@
 
 namespace GeoIPUnit;
 
-use lysenkobv\GeoIP\GeoIP;
+use perfectpanel\GeoIP\GeoIP;
 use PHPUnit_Framework_TestCase;
 
 class TestCase extends PHPUnit_Framework_TestCase {

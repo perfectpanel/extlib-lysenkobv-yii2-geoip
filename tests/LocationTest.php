@@ -4,7 +4,7 @@
 namespace GeoIPUnit;
 
 
-use lysenkobv\GeoIP\Location;
+use perfectpanel\GeoIP\Location;
 
 class LocationTest extends TestCase {
     public function testProperties() {

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace lysenkobv\GeoIP;
+namespace perfectpanel\GeoIP;
 
 /**
  * Class Result
- * @package lysenkobv\GeoIP
+ * @package perfectpanel\GeoIP
  *
  * @property string|null city
  * @property string|null country

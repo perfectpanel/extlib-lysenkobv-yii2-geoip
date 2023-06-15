@@ -1,7 +1,7 @@
 <?php
 
 
-namespace lysenkobv\GeoIP;
+namespace perfectpanel\GeoIP;
 
 use MaxMind\Db\Reader;
 use Yii;
@@ -11,12 +11,13 @@ use yii\web\Session;
 /**
  * Class GeoIP
  */
-class GeoIP extends Component {
+class GeoIP extends Component
+{
     /**
      * @var string
      */
-    public $dbPath;    
-    
+    public $dbPath;
+
     /**
      * @var Reader
      */
@@ -35,9 +36,10 @@ class GeoIP extends Component {
     /**
      * @inheritDoc
      */
-    public function init() {
-        $db = $this->dbPath ?: Yii::getAlias('@vendor/lysenkobv/maxmind-geolite2-database/city.mmdb');
-        
+    public function init()
+    {
+        $db = $this->dbPath ?: Yii::getAlias('@vendor/perfectpanel/maxmind-geolite2-database/city.mmdb');
+
         $this->session = Yii::$app->session;
         $this->reader = new Reader($db);
 
@@ -48,7 +50,8 @@ class GeoIP extends Component {
      * @param string|null $ip
      * @return Result
      */
-    public function ip($ip = null) {
+    public function ip($ip = null)
+    {
         if ($ip === null) {
             $ip = Yii::$app->request->getUserIP();
         }

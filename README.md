@@ -15,7 +15,7 @@ Currently available:
 Run
 
 ```bash
-$ php composer.phar require lysenkobv/yii2-geoip "~1.0"
+$ php composer.phar require perfectpanel/yii2-geoip "~1.0"
 ```
 
 #### OR 
@@ -25,7 +25,7 @@ add to your `composer.json`
 ```json
 {
     "require": {
-        "lysenkobv/yii2-geoip": "~1.0"
+        "perfectpanel/yii2-geoip": "~1.0"
     }
 }
 ```
